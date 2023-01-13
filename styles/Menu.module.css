@@ -1,0 +1,31 @@
+.nav {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(105, 105, 255) ;
+    padding-left: .5rem;
+}
+
+.logo {
+    display: flex;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: .3em;
+}
+
+.search {
+    border-radius: 30px;
+    border: none;
+}
+
+.text {
+   margin-left: .2rem;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+}
