@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-require('dotenv')
 
 export default function Document() {
   return (

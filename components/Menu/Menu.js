@@ -2,7 +2,7 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import Styles from "../../styles/Menu.module.css";
+import Styles from "../../styles/Menu/Menu.module.css";
 import { BiPlusMedical, BiSearchAlt, BiMenu } from "react-icons/bi";
 import Link from "next/link";
 

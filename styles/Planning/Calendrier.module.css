@@ -1,0 +1,13 @@
+.ligne {
+    display: flex;
+    width: 120%;
+}
+
+.scroll {
+    overflow-x: scroll;
+}
+
+.colonne {
+    display: flex;
+    flex-direction: column;
+}
