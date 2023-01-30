@@ -1,13 +1,36 @@
 .ligne {
-    display: flex;
-    width: 120%;
+  display: flex;
+  width: 120%;
 }
 
 .scroll {
-    overflow-x: scroll;
+  overflow-x: scroll;
+  background: rgb(223,222,255);
+  background: linear-gradient(to bottom, rgba(0,212,255,0.1) 20%, rgba(0,212,255,1) 100%);
 }
 
 .colonne {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.dispo {
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  color: black;
+}
+
+.nonDispo {
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+.crenaux {
+  text-align: center;
+  border: solid 2px rgba(0, 0, 0, .2);
+  font-weight: 600;
 }

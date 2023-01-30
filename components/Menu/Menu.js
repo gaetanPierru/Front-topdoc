@@ -40,16 +40,22 @@ export default function BasicMenu() {
           <MenuItem onClick={handleClose}><Link href="/connexion">Connexion</Link></MenuItem>
           <MenuItem onClick={handleClose}>A propos</MenuItem>
           <MenuItem onClick={handleClose}>contactez nous</MenuItem>
+          <MenuItem onClick={handleClose}><Link href="/planning">Planning test</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link href="/medecin/liste">Liste des Activités</Link></MenuItem>
         </Menu>
       </div>
 
       <div className={Styles.searchbar}>
-        <BiSearchAlt /> <input type="text" className={Styles.search}/>
+        <BiSearchAlt /> <input type="text" className={Styles.search} />
       </div>
 
-      <div className={Styles.logo}>
-        <BiPlusMedical /> <p className={Styles.text}>Medical</p>
-      </div>
+      <Link href="/">
+        <div className={Styles.logo}>
+          <BiPlusMedical />
+          <p className={Styles.text}>Medical</p>
+        </div>
+      </Link>
+
     </nav>
   );
 }
