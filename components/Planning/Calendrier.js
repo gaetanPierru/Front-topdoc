@@ -22,7 +22,7 @@ export default function Calendrier({id}) {
     }
 
     if(modal) {
-        return <ModelPriseRDV planningId={23} userId={2} creneaux={creneaux} setModal={setModal}/>
+        return <ModelPriseRDV planningId={id} userId={2} creneaux={creneaux} setModal={setModal}/>
     }
 
     return (<div className={Styles.scroll}>

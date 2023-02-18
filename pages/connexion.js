@@ -16,9 +16,11 @@ import axios from 'axios';
 const theme = createTheme();
 
 export default function connexion() {
+
+//TODO cookie and handlechange
+
   async function login(e){
     e.preventDefault();
-    console.log("connexion")
     const donne = await axios.post(`${process.env.api}api/auth/login`, {email: "cse@cse.com", 
     "password": "hash"})
 
